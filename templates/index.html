@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="/predict">
+        <label>glucose</label>
+        <input type="text" name="glucose">
+        <br>
+        <br>
+        <label>bloodpressure</label>
+        <input type="text" name="bloodpressure">
+        <br>
+        <br>
+        <label>skintickness</label>
+        <input type="text" name="skintickness">
+        <br>
+        <br>
+        <label>insulin</label>
+        <input type="text" name="insulin">
+        <br>
+        <br>
+        <label>bmi</label>
+        <input type="text" name="bmi">
+        <br>
+        <br>
+        <label>diabeticpfunction</label>
+        <input type="text" name="diabeticpfunction">
+        <br>
+        <br>
+        <label>age</label>
+        <input type="text" name="age">
+        <br>
+        <br>
+        <input type="submit" value="prediction">
+        <br>
+        <br>
+
+        {{result}}
+    </form>
+</body>
+</html>
